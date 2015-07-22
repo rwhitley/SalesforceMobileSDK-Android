@@ -741,7 +741,12 @@ public class SalesforceSDKManager {
     }
 
     /**
+<<<<<<< HEAD:native/SalesforceSDK/src/com/salesforce/androidsdk/app/SalesforceSDKManager.java
+     * Destroys the stored authentication credentials (removes the account)
+     * and restarts the app.
+=======
      * Destroys the stored authentication credentials (removes the account).
+>>>>>>> public/unstable:libs/SalesforceSDK/src/com/salesforce/androidsdk/app/SalesforceSDKManager.java
      *
      * @param frontActivity Front activity.
      */
@@ -750,10 +755,17 @@ public class SalesforceSDKManager {
     }
 
     /**
+<<<<<<< HEAD:native/SalesforceSDK/src/com/salesforce/androidsdk/app/SalesforceSDKManager.java
+     * Destroys the stored authentication credentials (removes the account)
+     * and, if requested, restarts the app.
+=======
      * Destroys the stored authentication credentials (removes the account).
+>>>>>>> public/unstable:libs/SalesforceSDK/src/com/salesforce/androidsdk/app/SalesforceSDKManager.java
      *
      * @param account Account.
      * @param frontActivity Front activity.
+<<<<<<< HEAD:native/SalesforceSDK/src/com/salesforce/androidsdk/app/SalesforceSDKManager.java
+=======
      */
     public void logout(Account account, Activity frontActivity) {
         logout(account, frontActivity, true);
@@ -764,6 +776,7 @@ public class SalesforceSDKManager {
      * and, if requested, restarts the app.
      *
      * @param frontActivity Front activity.
+>>>>>>> public/unstable:libs/SalesforceSDK/src/com/salesforce/androidsdk/app/SalesforceSDKManager.java
      * @param showLoginPage If true, displays the login page after removing the account.
      */
     public void logout(Activity frontActivity, final boolean showLoginPage) {
